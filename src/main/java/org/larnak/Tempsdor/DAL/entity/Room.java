@@ -36,7 +36,7 @@ public class Room implements Serializable {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    @OneToMany(mappedBy = "id")
+    @OneToMany(mappedBy = "room")
     private Collection<Booking> bookings;
 
     @ManyToMany

@@ -4,7 +4,6 @@ import org.larnak.Tempsdor.exception.ElementAlreadyExistException;
 import org.larnak.Tempsdor.exception.ElementNotFoundException;
 import org.larnak.Tempsdor.metier.DTO.ActivityDTO;
 import org.larnak.Tempsdor.metier.DTO.Container.ActivityContainer;
-import org.larnak.Tempsdor.metier.DTO.Container.ElementsContainer;
 import org.larnak.Tempsdor.metier.service.ActivityService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

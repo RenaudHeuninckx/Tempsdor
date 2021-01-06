@@ -39,10 +39,10 @@ public class User implements Serializable {
     @Email
     private String email;
 
-    @OneToMany(mappedBy = "id")
+    @OneToMany(mappedBy = "user")
     private Collection<Room> rooms;
 
-    @OneToMany(mappedBy = "id")
+    @OneToMany(mappedBy = "user")
     private Collection<Booking> bookings;
 
 }
