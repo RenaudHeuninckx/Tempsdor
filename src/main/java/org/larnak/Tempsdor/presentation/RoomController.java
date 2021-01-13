@@ -62,7 +62,7 @@ public class RoomController {
         return ResponseEntity.ok("Le propriétaire de la chambre à été changé.");
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public ResponseEntity<RoomDTO> delete(@PathVariable int id) throws ElementNotFoundException{
         RoomDTO deleted = service.getOne(id);
         service.delete(id);

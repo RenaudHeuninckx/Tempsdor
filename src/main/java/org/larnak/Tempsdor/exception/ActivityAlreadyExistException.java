@@ -1,7 +1,6 @@
 package org.larnak.Tempsdor.exception;
 
 import org.larnak.Tempsdor.metier.DTO.ActivityDTO;
-import org.larnak.Tempsdor.metier.DTO.BookingDTO;
 
 public class ActivityAlreadyExistException extends ElementAlreadyExistException{
 

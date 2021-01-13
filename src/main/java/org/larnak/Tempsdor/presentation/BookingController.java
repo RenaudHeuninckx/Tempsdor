@@ -56,7 +56,7 @@ public class BookingController {
         return ResponseEntity.ok("Un élément à été modifié");
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public ResponseEntity<BookingDTO> delete(@PathVariable int id) throws ElementNotFoundException{
         BookingDTO toDelete = service.getOne(id);
         return ResponseEntity.ok(toDelete);
